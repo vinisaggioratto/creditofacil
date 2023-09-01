@@ -1,0 +1,105 @@
+
+.destaque-emprestimos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #EFEFEF;*/
+    margin-right: 10px;
+    margin-left: 210px;
+    height: 350px;
+    margin-top: 15px;
+    /*border: red solid 2px;*/
+}
+
+.destaque-emprestimos .tipo-emprestimos{
+    display: block;
+    background-color: #EFEFEF;
+    /*border: green solid 2px;*/
+    width: 50%;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.destaque-emprestimos .tipo-emprestimos .h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destaque-emprestimos p {
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.simulacao {
+    border-top: green solid 2px;  
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 350px;
+    margin-right: 10px;
+    margin-left: 210px;
+    margin-top: 15px;
+}
+
+.simulacao-default {
+    background-color: #EFEFEF;
+    display: block;
+    /*border: red solid 2px;*/
+    width: 50%;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+
+.simulacao-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.simulacao-default p {
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.container-simulacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+/*CONFIGURAÇÃO FORMULARIO*/
+.formulario button {
+    cursor: pointer;
+}
+.form-simulacao {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border: gold solid 3px;
+    border-radius: 10px;
+    height: 100%;
+    width: 60%;
+}
+
+.formulario {
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.formulario .btn-submit {
+    border: green solid 3px;
+    border-radius: 7px;
+    margin-left: 26%;
+    padding: 0 15px 0 15px;
+    font-size: 1.5em;
+    
+}

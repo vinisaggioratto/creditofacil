@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CRIAÇÃO DO CABEÇALHO*/
+.cabecalho {
+    background-color: green;
+    border-bottom: #008000 solid 1px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+}
+
+.cabecalho .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+}
+
+.cabecalho .titulo h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 3em;
+}
+
+.cabecalho .imagem img {
+    float: left;
+    padding-left: 5em;
+    width: 90px;
+    height: 90px;
+}
+
+.rodape {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: #008000 solid 1px;
+    height: 50px;
+}
+
+.rodape-lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-lista li {
+    margin-left: 10px;
+    list-style: none;
+}
+
+.rodape-lista img {
+    width: 24px;
+    height: 24px;
+}
+
+
+

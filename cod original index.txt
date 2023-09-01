@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pr-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
+    <title>Crédito Fácil</title>
+</head>
+
+<body>
+    <section class="main">
+        <section>
+
+            <head>
+                <div class="cabecalho">
+                    <div class="imagem">
+                        <img src="img/CF-LOGO.png" alt="Crédito Fácil" title="Crédito Fácil">
+                    </div>
+                    <div class="titulo">
+                        <h1>CRÉDITO FÁCIL</h1>
+                    </div>
+                </div>
+            </head>
+        </section>
+
+        <section>
+            <div class="menu-destaque">
+                <div class="menu">
+                    <nav>
+                        <ul class="itens-list">
+                            <li class="it-1 effect">
+                                Início<br>
+                            </li>
+                            <li class="it-2 effect">
+                                Empréstimos<br>
+                            </li>
+                            <li class="it-3 effect">
+                                Seja nosso cliente<br>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="destaque">
+                    <div>
+                        <ul class="slider">
+                            <li>
+                                <input type="radio" id="slide1" name="slide" checked>
+                                <label for="slide1"></label>
+                                <img src="img/destaque - 60 dias.png" alt="60 dias para começar a pagar">
+                            </li>
+                            <li>
+                                <input type="radio" id="slide2" name="slide">
+                                <label for="slide2"></label>
+                                <img src="img/destaque - Saia do vermelho.png" alt="Saia do vermelho">
+                            </li>
+                            <li>
+                                <input type="radio" id="slide3" name="slide">
+                                <label for="slide3"></label>
+                                <img src="img/destaque - Top 1 em crédito.png" alt="Top 1 em crédito">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section>
+        <div>
+            <div class="produtos">
+                <div class="produto-1">
+                    teste1
+                </div>
+                <div class="produto-2">
+                    teste2
+                </div>
+                <div class="produto-3">
+                    teste3
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+        <div class="rodape">
+            <ul class="rodape-lista">
+                <li><img src="icons/instagram.png" alt="Instagram"></li>
+                <li><img src="icons/facebook.png" alt="Facebook"></li>
+                <li><img src="icons/twitter.png" alt="Facebook"></li>
+                <li><img src="icons/linkedin.png" alt="Facebook"></li>
+                <li><img src="icons/e-mail.png" alt="Facebook"></li>
+                <li><img src="icons/whatsapp.png" alt="Facebook"></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

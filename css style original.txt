@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main {
+    background-color: white;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CRIAÇÃO DO CABEÇALHO*/
+.cabecalho {
+    background-color: white;
+    margin-top: 0px;
+    border-bottom: #008000 solid 1px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+}
+
+.cabecalho .titulo h1 {
+    color: green;
+    align-items: center;
+    padding-left: 1em;
+    font-size: 3em;
+}
+
+.cabecalho .imagem img {
+    float: left;
+    padding-left: 1em;
+}
+
+/*CRIAÇÃO DO MENU E DESTAQUE*/
+
+
+.menu-destaque{
+    display: flex;
+    height: 330px;
+    /*margin: auto;*/
+    border-bottom: #008000 solid 1px;
+}
+
+.destaque {
+    margin-left: 14%;
+}
+.container-menu {
+    display: flex;
+}
+.menu {
+    display: inline-block;
+    justify-content: left;
+    border: red solid 2px;
+    margin-top: 1em;
+    margin-left: 1em;
+    width: 15%;
+    height: 40vmax;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu .itens-list {
+    margin: auto;
+    display: inline;
+    height: 150px;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 600;
+    
+}
+
+.menu .itens-list .it-1 {
+    cursor: pointer;
+    border: green solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.menu .itens-list .it-2 {
+    cursor: pointer;
+    border: green solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.menu .itens-list .it-3 {
+    cursor: pointer;
+    border: green solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.menu .itens-list .effect {
+    background-color: chartreuse;
+}
+
+/*CRIAÇÃO DA DIVISÃO DE PRODUTOS*/
+.produtos {
+    margin: auto;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 470px;
+}
+.produtos .produto-1 {
+    width: 30%;
+    height: 90%;
+    background-color: rgb(122, 110, 110);
+}
+.produtos .produto-2 {
+    width: 30%;
+    height: 90%;
+    background-color: rgb(190, 113, 113);
+    margin-left: 10px;
+}
+.produtos .produto-3 {
+    width: 30%;
+    height: 90%;
+    background-color: rgb(121, 107, 107);
+    margin-left: 10px;
+}
+
+
+.rodape {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: #008000 solid 1px;
+    height: 50px;
+}
+.rodape-lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-lista li {
+    margin-left: 10px;
+    list-style: none;
+}
+.rodape-lista img {
+    width: 24px;
+    height: 24px;
+}

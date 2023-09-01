@@ -1,0 +1,92 @@
+
+
+.produtos-main {
+    display: flex;
+    margin-top: 10px;
+    border-top: green solid 1px;
+    
+    
+}
+.produtos-main h3 {
+    margin-left: 10px;
+    color: green;
+}
+.produtos {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 207px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    height: 550px;
+}
+
+.produtos .titulo-produtos {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.produtos .default {
+    background-color: #EFEFEF;
+    display: inline;
+    width: 370px;
+    height: 95%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.produtos img {
+    width: 350px;
+    height: 250px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.produtos p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    text-align: justify;
+    height: 35%;
+    width: 350px;
+    margin-left: 10px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.produtos .button {
+    text-align: center;
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.produtos .efeito {
+    border: none;
+    background-color: green;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.produtos a {
+    text-decoration: none;
+    color: white;
+}
+
+.efeito:hover {
+    background-color: white;
+    border: green solid 2px;
+    transition: ease 400ms ease;
+}
+
+.efeito:hover a {
+    color: green;
+}

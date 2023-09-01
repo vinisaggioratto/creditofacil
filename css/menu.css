@@ -1,0 +1,41 @@
+/*CRIAÇÃO DO MENU*/
+
+.menu {
+    display: block;
+    margin: 1em 0 0 0;
+    width: 200px;
+    height: 842px;
+    float: left;
+}
+
+.menu li {
+    list-style: none;
+    color: white;
+}
+
+.menu .itens-list {
+    margin: auto;
+    display: inline;
+    height: 150px;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.menu .itens-list .it-1 {
+    cursor: pointer;
+    border-right: green solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.menu .itens-list .effect {
+    background-color: green;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}

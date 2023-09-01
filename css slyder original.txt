@@ -1,0 +1,54 @@
+/*CRIAÇÃO DO SLIDER DE IMAGENS DE DESTAQUE*/
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 700px;
+    margin: auto;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: gray;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider img {
+    margin: auto;
+    height: 330px;
+    width: 100%;
+    vertical-align: top;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 500ms ease;
+}
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+    
+}

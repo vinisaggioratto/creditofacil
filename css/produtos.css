@@ -12,15 +12,13 @@
     color: green;
 }
 .produtos {
-    
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 207px;
+    margin-left: 210px;
     margin-right: 5px;
     margin-bottom: 10px;
-    height: 550px;
-    /*width: auto;*/    
+    height: 700px;
 }
 
 .produtos .titulo-produtos {
@@ -28,20 +26,20 @@
     font-weight: 600;
 }
 
-.produtos .default {
+.default {
     background-color: #EFEFEF;
-    display: inline;
-    width: 370px;
+    display: block;
+    width: 275px;
     height: 95%;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 5px;
+    
+    border: red solid 2px;
 }
 
 .produtos img {
-    width: 350px;
+    width: 250px;
     height: 250px;
-    margin-left: 10px;
+    margin-left: 12px;
     padding-top: 10px;
 }
 
@@ -49,8 +47,8 @@
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     text-align: justify;
-    height: 35%;
-    width: 350px;
+    height: 48%;
+    width: 252px;
     margin-left: 10px;
     padding-right: 5px;
     padding-top: 10px;
@@ -60,7 +58,7 @@
     text-align: center;
     display: flex;
     justify-content: right;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .produtos .efeito {

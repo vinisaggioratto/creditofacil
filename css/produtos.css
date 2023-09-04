@@ -20,7 +20,7 @@
     margin-right: 10px;
     margin-bottom: 10px;
     height: 600px;
-    border: red solid 2px;
+    /*border: red solid 2px;*/
 }
 
 .titulo-produtos {
@@ -38,11 +38,11 @@
     height: 90%;
     width: 23.5%;
     margin-right: 5px;
-    border: red solid 2px;
+    /*border: red solid 2px;*/
 }
 
 .produtos img {
-    width: 300px;
+    width: 250px;
     height: 200px;
     padding-top: 10px;
 }

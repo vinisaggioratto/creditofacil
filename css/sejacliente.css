@@ -6,7 +6,7 @@
     background-color: white;
     margin-right: 10px;
     margin-left: 210px;
-    height: 420px;
+    height: 600px;
     margin-top: 15px;
     /*border: red solid 2px;*/
 }
@@ -30,6 +30,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 420px;
+    height: 250px;
     margin-top: 15px;
 }

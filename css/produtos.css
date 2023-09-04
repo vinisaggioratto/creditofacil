@@ -17,7 +17,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 210px;
     margin-right: 10px;
     margin-bottom: 10px;
     height: 600px;
@@ -29,16 +28,16 @@
     justify-content: center;
     align-items: center;
     margin-top: 15px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
 }
 
 .default {
     background-color: #EFEFEF;
     display: block;
-    width: 330px;
     height: 90%;
-    margin-right: 10px;
+    width: 23.5%;
+    margin-right: 5px;
     border: red solid 2px;
 }
 
@@ -53,13 +52,12 @@
     align-items: center;
 }
 .produtos p {
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Open Sans", sans-serif;
     text-align: justify;
     height: 38%;
-    width: 300px;
-    margin-left: 15px;
-    
+    width: 250px;
+    margin-left: 8px;
     padding-top: 10px;
 }
 

@@ -1,0 +1,35 @@
+.div-sejacliente {
+    border-top: green solid 2px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 210px;
+    height: 420px;
+    margin-top: 15px;
+    /*border: red solid 2px;*/
+}
+.sejacliente-titulo {
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 80px;
+    border: red solid 2px;
+}
+.sejacliente-titulo h2 {
+    margin-left: 10px;
+    color: green;
+    font-size: 2em;
+}
+
+.div-formulario {
+    background-color: #EFEFEF;
+    border: red solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    margin-top: 15px;
+}

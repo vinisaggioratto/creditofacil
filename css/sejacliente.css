@@ -10,13 +10,19 @@
     margin-top: 15px;
     /*border: red solid 2px;*/
 }
+
+.titulo-espacamento {
+    margin-top: 55px;
+}
+
+
 .sejacliente-titulo {
     background-color: #EFEFEF;
     display: flex;
     justify-content: center;
     align-items: center;  
     height: 80px;
-    border: red solid 2px;
+    margin-top: 15px;
 }
 .sejacliente-titulo h2 {
     margin-left: 10px;
@@ -24,12 +30,40 @@
     font-size: 2em;
 }
 
+.sejacliente-titulo h3 {
+    margin-left: 10px;
+    color: green;
+    font-size: 1em;
+}
+
 .div-formulario {
-    background-color: #EFEFEF;
-    border: red solid 2px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 250px;
-    margin-top: 15px;
+    align-items: center;   
+    background-color: #EFEFEF;
+    height: auto;
 }
+
+.formulario {
+    background-color: #EFEFEF;
+    border: red solid 2px;
+    height: 300px;
+    width: 280px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 30px;
+    border-radius: 30px;
+}
+
+.btn-submit {
+    border: green solid 3px;
+    border-radius: 7px;
+    margin-left: 15%;
+    font-size: 1.5em;
+    padding: 5px;
+}
+

@@ -19,7 +19,7 @@
     align-items: center;
     margin-right: 10px;
     margin-bottom: 10px;
-    height: 600px;
+    height: 600px; /*height: 600px; original*/
     /*border: red solid 2px;*/
 }
 

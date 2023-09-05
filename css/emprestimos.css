@@ -1,3 +1,9 @@
+
+p {
+    text-align: justify;
+    margin-top: 10px;
+}
+
 .destaque-emprestimos {
     display: flex;
     justify-content: center;
@@ -25,17 +31,6 @@
     margin-left: 20px;
 }
 
-.destaque-emprestimos .tipo-emprestimos .h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.destaque-emprestimos p {
-    text-align: justify;
-    margin-top: 10px;
-}
-
 .simulacao {
     border-top: green solid 2px;
     display: flex;
@@ -58,17 +53,6 @@
     margin-right: 10px;
     padding: 10px;
 
-}
-
-.simulacao-h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.simulacao-default p {
-    text-align: justify;
-    margin-top: 10px;
 }
 
 .container-simulacao {
@@ -133,11 +117,19 @@
     cursor: pointer;
 }
 
+.botao-parcela button a {
+        text-decoration: none;
+        color: green;
+}
 .botao-efeito:hover {
     background-color: green;
     color: white;
     transition: ease 400ms ease;
     border: white solid 10px;
+}
+.botao-parcela:hover button a{
+    text-decoration: none;
+    color: white;
 }
 
 /*PERGUNTAS FREQUENTES*/
@@ -152,25 +144,12 @@
     margin-top: 15px;
 }
 
-.perguntas-h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-
-}
-
 .perguntas-respostas {
     background-color: #EFEFEF;
     height: 400px;
     margin-left: 10px;
     margin-right: 10px;
     padding: 10px;
-}
-
-.perguntas-respostas p {
-    text-align: justify;
-    margin-top: 10px;
 }
 
 .perguntas-respostas details {

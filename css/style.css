@@ -4,6 +4,24 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.padrao-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    color: green;
+    font-size: 2em;
+}
+.padrao-h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: green;
+    font-size: 1em;
+}
+
 .main {
     display: inline;
     justify-content: center;

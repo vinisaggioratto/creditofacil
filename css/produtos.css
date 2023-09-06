@@ -1,9 +1,10 @@
 
-
 .produtos-main {
     display: flex;
+    justify-content: center;
     margin-top: 20px;
     border-top: green solid 1px;
+
     
     
 }
@@ -51,13 +52,20 @@
     justify-content: center;
     align-items: center;
 }
+
+.container-p {
+    display: flex;
+    justify-content: center;
+    height: 38%;
+}
+
 .produtos p {
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
     text-align: justify;
     height: 38%;
-    width: 250px;
-    margin-left: 8px;
+    width: 350px;
+    margin-left: 3px;
     padding-top: 10px;
 }
 

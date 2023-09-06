@@ -75,32 +75,40 @@
                 <div class="sejacliente-titulo padrao-h2">
                     <h3>Seja nosso cliente</h3>
                 </div>
+
                 <div class="sejacliente-titulo padrao-h3">
                     <h3>
                         Formulário de contato:
                     </h3>
                 </div>
+
                 <div class="div-formulario">
-                    <form class="formulario">
-                        <br>
-                        <label>Nome</label>
-                        <input type="text" name="nome" required>
-                        <br><br>
-                        <label>Email</label>
-                        <input type="text" name="email" required>
-                        <br><br>
-                        <label>Crédito</label>
-                        <select name="produto">
-                            <option value="emprestimo-pessoal">Empréstimo pessoal</option>
-                            <option value="emprestimo-consignado">Empréstimo consignado</option>
-                        </select>
-                        <br><br>
-                        <label>Aposentado: </label>
-                        <select name="aposentado">
-                            <option value="aposentado-sim">Sim</option>
-                            <option value="aposentado-nao">Não</option>
-                        </select><br><br>
-                        <button type="submit" class="btn-submit" value="Simular">CADASTRAR</button>
+                    <form> <!-- class="formulario"-->
+                        <div>
+                            <label>Nome</label>
+                            <input type="text" name="nome" class="formatar-itens-form" required>
+                        </div>
+                        <div>
+                            <label>Email</label>
+                            <input type="text" name="email" class="formatar-itens-form" required>
+                        </div>
+                        <div>
+                            <label>Crédito</label>
+                            <select name="produto" class="formatar-itens-form">
+                                <option value="emprestimo-pessoal">Empréstimo pessoal</option>
+                                <option value="emprestimo-consignado">Empréstimo consignado</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Aposentado</label>
+                            <select name="aposentado">
+                                <option value="aposentado-sim">Sim</option>
+                                <option value="aposentado-nao">Não</option>
+                            </select>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn-submit" value="Simular">CADASTRAR</button>
+                        </div>
                     </form>
                 </div>
             </div>

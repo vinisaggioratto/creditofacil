@@ -4,8 +4,6 @@
     justify-content: center;
     margin-top: 20px;
     border-top: green solid 1px;
-
-    
     
 }
 .produtos-main h3 {
@@ -25,12 +23,7 @@
 }
 
 .titulo-produtos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 15px;
-    font-size: 15px;
-    font-weight: 600;
 }
 
 .default {
@@ -56,7 +49,7 @@
 .container-p {
     display: flex;
     justify-content: center;
-    height: 38%;
+    height: 42%;
 }
 
 .produtos p {
@@ -64,7 +57,7 @@
     font-family: "Open Sans", sans-serif;
     text-align: justify;
     height: 38%;
-    width: 350px;
+    width: 260px;
     margin-left: 3px;
     padding-top: 10px;
 }
